@@ -1,11 +1,13 @@
-version: '3'
+version: '3.8'
 services:
   app:
     container_name: shahmeer-above-container
     build:
       context: .
       dockerfile: Dockerfile
+    restart: always
     ports:
       - "21235:3000"
     volumes:
       - .:/app
+    pull_policy: build
