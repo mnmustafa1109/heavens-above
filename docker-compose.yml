@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
     restart: always
     ports:
-      - "21235:3000"
+      - "1235:3000"
     volumes:
       - .:/app
     pull_policy: build
