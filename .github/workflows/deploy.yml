@@ -1,4 +1,4 @@
-name: Docker Beta Image CI
+name: Docker Stable Image CI
 # checking action
 on:
   push:
