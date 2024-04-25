@@ -8,6 +8,4 @@ services:
     restart: always
     ports:
       - "1235:3000"
-    volumes:
-      - .:/app
     pull_policy: build
