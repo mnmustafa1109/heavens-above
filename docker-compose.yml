@@ -1,0 +1,11 @@
+version: '3'
+services:
+  app:
+    container_name: shahmeer-above-container
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "21235:3000"
+    volumes:
+      - .:/app
