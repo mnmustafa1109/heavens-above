@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   app:
-    container_name: shahmeer-above-container
+    container_name: mustafa-above-container
     build:
       context: .
       dockerfile: Dockerfile
